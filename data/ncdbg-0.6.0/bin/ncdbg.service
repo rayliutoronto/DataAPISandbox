@@ -1,0 +1,12 @@
+[Unit]
+Description=Server Side Javascript (Nashorn) Debugger
+After=network.target
+
+[Service]
+Type=forking
+
+ExecStart=/vagrant/data/ncdbg-0.6.0/bin/start.sh
+ExecStop=/vagrant/data/ncdbg-0.6.0/bin/stop.sh
+
+[Install]
+WantedBy=multi-user.target

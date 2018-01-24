@@ -1,0 +1,1 @@
+/bin/kill -9 $(cat /vagrant/data/ncdbg-0.6.0/bin/run.pid)

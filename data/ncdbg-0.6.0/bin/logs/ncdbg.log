@@ -1,0 +1,19 @@
+04:03:52.170 [main] INFO  c.p.ncd.boot.Boot$ - Local Java version: 1.8.0_161
+04:03:52.178 [Thread-0] INFO  c.p.n.n.NashornDebuggerConnector - Connecting to localhost:7777...
+04:03:52.259 [Thread-0] INFO  c.p.n.n.NashornDebuggerConnector - Connected!
+04:03:52.261 [Thread-0] INFO  c.p.n.n.NashornDebuggerConnector - Remote VM information:
+- Java Debug Interface (Reference Implementation) version 1.8 
+- Java Debug Wire Protocol (Reference Implementation) version 1.8
+- JVM Debug Interface version 1.2
+- JVM version 1.8.0_161 (Java HotSpot(TM) 64-Bit Server VM, mixed mode, sharing)
+04:03:52.338 [pool-1-thread-1] DEBUG c.p.ncd.nashorn.NashornDebuggerHost - Postponing initialization until classes have stabilized
+04:03:52.387 [default-akka.actor.default-dispatcher-4] INFO  c.p.ncd.boot.Boot$ - Server is listening on 0.0.0.0:7778
+04:03:52.388 [default-akka.actor.default-dispatcher-4] INFO  c.p.ncd.boot.Boot$ - Open this URL in Chrome: chrome-devtools://devtools/bundled/inspector.html?experiments=true&v8only=true&ws=0.0.0.0:7778/dbg
+04:03:52.389 [pool-3-thread-1] INFO  c.p.ncd.chrome.net.WebSocketServer - Receiving WebSocket clients at /0.0.0.0:7778
+04:03:52.561 [pool-1-thread-1] DEBUG c.p.ncd.nashorn.NashornDebuggerHost - Postponing initialization until classes have stabilized
+04:03:52.807 [pool-1-thread-1] DEBUG c.p.ncd.nashorn.NashornDebuggerHost - Scanning 6063 currently known classes...
+04:03:52.816 [pool-1-thread-1] DEBUG c.p.ncd.nashorn.NashornDebuggerHost - Found the java.lang.Boolean type
+04:03:52.819 [pool-1-thread-1] DEBUG c.p.ncd.nashorn.NashornDebuggerHost - Found the java.lang.Double type
+04:03:52.819 [pool-1-thread-1] DEBUG c.p.ncd.nashorn.NashornDebuggerHost - Found the java.lang.Integer type
+04:03:52.820 [pool-1-thread-1] DEBUG c.p.ncd.nashorn.NashornDebuggerHost - Found the java.lang.Long type
+04:03:52.823 [pool-1-thread-1] INFO  c.p.ncd.nashorn.NashornDebuggerHost - Class scanning complete!

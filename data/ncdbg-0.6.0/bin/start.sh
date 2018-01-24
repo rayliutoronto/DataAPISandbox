@@ -1,0 +1,1 @@
+/usr/bin/nohup /vagrant/data/ncdbg-0.6.0/bin/ncdbg -l 0.0.0.0:7778 > /dev/null 2>&1 & echo $! > /vagrant/data/ncdbg-0.6.0/bin/run.pid

@@ -73,7 +73,6 @@ if  [ ! -d "/opt/tomcat" ]; then
 	#systemctl restart ncdbg
 	#systemctl status ncdbg
 	#systemctl enable ncdbg
-	/vagrant/data/ncdbg-0.6.0/bin/start.sh
 fi
 
 echo "==========Pulling source code=========="
@@ -93,4 +92,5 @@ cp build/libs/c3api_data.war /opt/tomcat/webapps
 echo "restarting tomcat....."
 systemctl restart tomcat
 echo "restarting SSJS debugger....."
+/vagrant/data/ncdbg-0.6.0/bin/stop.sh
 /vagrant/data/ncdbg-0.6.0/bin/start.sh

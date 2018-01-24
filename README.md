@@ -5,6 +5,7 @@ If you are using Windows 7, please consider to upgrade PowerShell to 3.0: https:
 * Step 3: rename user.conf.bak to user.conf, and set domain username, password and github username, password, respectively
 * Step 4: execute cmd: `vagrant up`
 * Step 5: after first time load, which takes several minutes, Data API is on [http://localhost:8888/c3api_data/v2/DataAccess.svc](http://localhost:8888/c3api_data/v2/DataAccess.svc), server side javascript debugger is on chrome-devtools://devtools/bundled/inspector.html?experiments=true&v8only=true&ws=localhost:7778/dbg
+    * open `chrome-devtools://devtools/bundled/inspector.html?experiments=true&v8only=true&ws=localhost:7778/dbg` on Google Chrome
 * Step 6: once codebase of Data API has changes, execute cmd: `vagrant provision`
 
 

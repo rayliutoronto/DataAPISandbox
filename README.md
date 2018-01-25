@@ -1,4 +1,4 @@
-# Local DataAccess API Development Environment & Server Side Javascript Debugger
+# Local Development Environment with DataAccess API & Server Side Javascript Debugger
 * Step 1: install [Vagrant](https://www.vagrantup.com/downloads.html), or follow installation procedure on platform, like on Ubuntu 16.04: `sudo apt-get install vagrant`
 * Step 2: install [VirtualBox](https://www.virtualbox.org/wiki/Downloads), or follow installation procedure on platform, like on Ubuntu 16.04: `sudo apt-get install virtualbox`
 * Step 3: rename user.conf.bak to user.conf, and set domain username, password and github username, password, respectively

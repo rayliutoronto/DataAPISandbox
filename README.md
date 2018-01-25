@@ -12,5 +12,5 @@
 * Step 7: stop everything: `vagrant halt`
 
 
-Screenshot of Server Side Javascript Debugger:
+Screenshot of Server Side Javascript Debugger, for [example 2](https://github.com/CityofToronto/c3api_data/wiki/Advanced:-Extension#example-2):
 ![](https://raw.githubusercontent.com/rayliutoronto/DataAPISandbox/master/doc/ServerSideJS_Debug.PNG)

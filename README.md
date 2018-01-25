@@ -1,4 +1,5 @@
 # Local Development Environment with DataAccess API & Server Side Javascript (Nashorn) Debugger
+Thanks [Vagrant](https://www.vagrantup.com/), [VirtualBox](https://www.virtualbox.org/) and [ncdbg](https://github.com/provegard/ncdbg)
 * Step 1: install [Vagrant](https://www.vagrantup.com/downloads.html), or follow installation procedure on platform, like on Ubuntu 16.04: `sudo apt-get install vagrant`
 * Step 2: install [VirtualBox](https://www.virtualbox.org/wiki/Downloads), or follow installation procedure on platform, like on Ubuntu 16.04: `sudo apt-get install virtualbox`
 * Step 3: rename user.conf.bak to user.conf, and set domain username, password and github username, password, respectively

@@ -10,7 +10,7 @@ Environment=CATALINA_PID=/opt/tomcat/temp/tomcat.pid
 Environment=CATALINA_HOME=/opt/tomcat
 Environment=CATALINA_BASE=/opt/tomcat
 Environment='CATALINA_OPTS=-Xms512M -Xmx1024M -server -XX:+UseParallelGC -Xmn50m -agentlib:jdwp=transport=dt_socket,server=y,suspend=n,address=7777'
-Environment='JAVA_OPTS=-DC3API_LOGGING_ROOT_DIR="/opt/tomcat/logs" -DC3API_CONFIG_ENDPOINT="http://shelby.corp.toronto.ca:9080/c3api_config/v2/ConfigService.svc/ConfigSet(\'c3api_config_app/global_env.json\')/ConfigContent" -Doracle.soda.trace=true -DC3API_SESSION_TIMEOUT=540000 -DC3API_CONFIG_ADMIN_GROUP=cn=c3api_admin_qa,ou=Groups,o=Toronto -DC3API_CONFIG_USER=c3api_config'
+Environment='JAVA_OPTS=-DC3API_LOGGING_ROOT_DIR="/opt/tomcat/logs" -DC3API_CONFIG_ENDPOINT="http://bugatti.corp.toronto.ca:9092/c3api_config/v2/ConfigService.svc/ConfigSet(\'c3api_config_app/global_env.json\')/ConfigContent" -Doracle.soda.trace=true -DC3API_SESSION_TIMEOUT=540000 -DC3API_CONFIG_ADMIN_GROUP=cn=c3api_admin_qa,ou=Groups,o=Toronto -DC3API_CONFIG_USER=c3api_config'
 
 ExecStart=/opt/tomcat/bin/startup.sh
 ExecStop=/opt/tomcat/bin/shutdown.sh

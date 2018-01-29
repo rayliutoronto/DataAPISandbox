@@ -81,7 +81,7 @@ if [ ! -d ~/git ]; then
 	cd ~/git
 	git clone https://${githubUser//@/%40}:$githubPassword@github.com/CityofToronto/c3api_data.git
 	cd c3api_data
-	git checkout REL-BRANCH-2.1
+	git checkout master
 fi
 cd ~/git/c3api_data
 git pull
